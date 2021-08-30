@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0349377A267E909A005CD303 /* DicTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DicTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0349377A267E909A005CD303 /* ToonInvasionTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToonInvasionTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0349377D267E909A005CD303 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0349377F267E909A005CD303 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		03493781267E909A005CD303 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		03493771267E909A005CD303 = {
 			isa = PBXGroup;
 			children = (
-				0349377C267E909A005CD303 /* DicTest */,
+				0349377C267E909A005CD303 /* ToonInvasionTracker */,
 				0349377B267E909A005CD303 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		0349377B267E909A005CD303 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0349377A267E909A005CD303 /* DicTest.app */,
+				0349377A267E909A005CD303 /* ToonInvasionTracker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0349377C267E909A005CD303 /* DicTest */ = {
+		0349377C267E909A005CD303 /* ToonInvasionTracker */ = {
 			isa = PBXGroup;
 			children = (
 				0349377D267E909A005CD303 /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				03493788267E909D005CD303 /* LaunchScreen.storyboard */,
 				0349378B267E909D005CD303 /* Info.plist */,
 			);
-			path = DicTest;
+			path = ToonInvasionTracker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		03493779267E909A005CD303 /* DicTest */ = {
+		03493779267E909A005CD303 /* ToonInvasionTracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0349378E267E909D005CD303 /* Build configuration list for PBXNativeTarget "DicTest" */;
+			buildConfigurationList = 0349378E267E909D005CD303 /* Build configuration list for PBXNativeTarget "ToonInvasionTracker" */;
 			buildPhases = (
 				03493776267E909A005CD303 /* Sources */,
 				03493777267E909A005CD303 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = DicTest;
+			name = ToonInvasionTracker;
 			productName = DicTest;
-			productReference = 0349377A267E909A005CD303 /* DicTest.app */;
+			productReference = 0349377A267E909A005CD303 /* ToonInvasionTracker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 03493775267E909A005CD303 /* Build configuration list for PBXProject "DicTest" */;
+			buildConfigurationList = 03493775267E909A005CD303 /* Build configuration list for PBXProject "ToonInvasionTracker" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				03493779267E909A005CD303 /* DicTest */,
+				03493779267E909A005CD303 /* ToonInvasionTracker */,
 			);
 		};
 /* End PBXProject section */
@@ -286,15 +286,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Z9JAL3JCNK;
+				DEVELOPMENT_TEAM = DT9KZY774V;
 				INFOPLIST_FILE = DicTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.zoragaming.DicTest;
+				PRODUCT_BUNDLE_IDENTIFIER = org.zoragaming.ToonInvasionTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,15 +307,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Z9JAL3JCNK;
+				DEVELOPMENT_TEAM = DT9KZY774V;
 				INFOPLIST_FILE = DicTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.zoragaming.DicTest;
+				PRODUCT_BUNDLE_IDENTIFIER = org.zoragaming.ToonInvasionTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -322,7 +326,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03493775267E909A005CD303 /* Build configuration list for PBXProject "DicTest" */ = {
+		03493775267E909A005CD303 /* Build configuration list for PBXProject "ToonInvasionTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0349378C267E909D005CD303 /* Debug */,
@@ -331,7 +335,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0349378E267E909D005CD303 /* Build configuration list for PBXNativeTarget "DicTest" */ = {
+		0349378E267E909D005CD303 /* Build configuration list for PBXNativeTarget "ToonInvasionTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0349378F267E909D005CD303 /* Debug */,
